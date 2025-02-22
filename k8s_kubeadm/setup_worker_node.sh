@@ -5,6 +5,7 @@ set -e
 
 #Setting hostname for control plane nodes
 sudo hostnamectl set-hostname kube-worker-node
+# sudo hostnamectl set-hostname kube-worker-node-02
 
 # Update system and install necessary dependencies
 echo "Updating system and installing prerequisites..."
